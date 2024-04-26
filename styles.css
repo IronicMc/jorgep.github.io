@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+  }
+  body {
+    background-color: #E8985E;
+  }
+  
+  nav {
+    justify-content: space-around;
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #141204;
+    color: white;
+    align-items: center;
+  }
+  header {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3vh;
+    padding-right: 3vh;
+  }
+  
+  .paths {
+    margin-top: 20px;
+    background-color: #A9714B;
+    font-size: x-large;
+    padding: 3vh;
+    text-align: center;
+  }
+  
+  .img1 {
+    padding: 1vh;
+    border-radius: 25px;
+    transition: all 300ms;
+  }
+  
+  .img2 {
+    padding: 1vh;
+    border-radius: 25px;
+    transition: all 300ms;
+    height:65vh;
+    margin-top: 3vh;
+  }
+  
+  .img1:hover {
+    transform: scale(1.1);
+  }
+  .text {
+    padding: 1vh;
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 100px;
+  }
+  
+  .content {
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .nav__links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .nav__link {
+    list-style-type: none;
+  }
+  .box {
+    font-size: x-large;
+    margin-top: 3vh;
+    width: 30%;
+    background-color: #A9714B;
+    height: 500px;
+    border-radius: 25px;
+    padding: 25px;
+  }
+
+  .bpx {
+    font-size: large;
+    margin-top: 3vh;
+    width: 90%;
+    background-color: #A9714B;
+    height: 300px;
+    border-radius: 25px;
+    padding: 25px;
+  }
+
+  .box2 {
+    margin-top: 3vh;
+    width: 90vh;
+    background-color: #ead7bb;
+    height: 64vh;
+    border-radius: 25px;
+    padding: 25px;
+    font-size:x-large;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer {
+    color: white;
+    margin-top: 10vh;
+    background-color: #262A10;
+    height: 200px;
+    display: flex;
+    position: sticky;
+    bottom: 0;
+  }
+  
+  .logo {
+    padding-top: 60px;
+    padding-left: 30px;
+  }
+  
+  a:hover {
+    filter: brightness(60%);
+    transform: scale(1.1);
+  }
+  
+  ul {
+    font-size: large;
+  }
+
